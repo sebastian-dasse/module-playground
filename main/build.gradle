@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'de.sebdas'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':foo-api')
+    implementation project(':foo-impl')
+
+//    testCompile "org.junit.jupiter:junit-jupiter-api:${junit5Version}"
+//    testCompile "org.junit.jupiter:junit-jupiter-params:${junit5Version}"
+//    testCompile "org.junit.jupiter:junit-jupiter-engine:${junit5Version}"
+//    testRuntime "org.junit.platform:junit-platform-runner:${junitPlatformVersion}"
+//    testCompile "org.assertj:assertj-core:${assertjVersion}"
+//    testCompile "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
+}
+
+//test {
+//    useJUnitPlatform()
+//}
