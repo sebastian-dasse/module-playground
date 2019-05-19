@@ -1,2 +1,3 @@
 #de.sebdas.foo.impl.FooServiceImpl
 de.sebdas.foo.impl.FooServiceImplWithLogging
+#de.sebdas.foo.impl.FooServiceImplWithDelay
